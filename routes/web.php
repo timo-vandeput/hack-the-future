@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\IngredientController;
+// use App\Http\Controllers\PotionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
+Route::get('/', [ IngredientController::class, "index" ]);
+/* Route::get('/', function () {
+    return view('welcome');
 });
+*/
