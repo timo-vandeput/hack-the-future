@@ -50,6 +50,7 @@ ul {
 }
 
 .error {
+    margin-top: 5rem;
     color: rgb(228, 16, 94);
     font-weight: bold;
     font-family: "Helvetica Neue", sans-serif;
