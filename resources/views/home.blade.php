@@ -15,23 +15,20 @@
         <div class="flex">
             <div class="firstingredients">
                 <ul>
-                    <li>Bitter Root</li>
-                    <li>Ashwinder Egg</li>
-                    <li>Butterscotch</li>
+                    <li class=first id=1>Bitter Root</li>
+                    <li class=second id=2>Ashwinder Egg</li>
+                    <li class=third id=3>Butterscotch</li>
                 </ul>
             </div>
 
             <div class="secondingredients">
                 <ul>
-                    <li>Murtlap Tentacles</li>
-                    <li>Snowdrop</li>
-                    <li>Alcohol</li>
+                    <li class=second id=2>Murtlap Tentacles</li>
+                    <li class=first id=1>Snowdrop</li>
+                    <li class=third id=3>Alcohol</li>
                 </ul>
             </div>
             <div class="potion">
-                <iconify-icon icon="material-symbols:question-mark-rounded" style="color: #e4105e;" width="300" height="300"></iconify-icon>
-            </div>
-            <div class="result">
                 <iconify-icon icon="material-symbols:question-mark-rounded" style="color: #e4105e;" width="300" height="300"></iconify-icon>
             </div>
         </div>

@@ -11,6 +11,7 @@ section {
 .flex {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -35,11 +36,16 @@ ul {
     font-family: "Helvetica Neue", sans-serif;
 }
 
-.potion img {
-    width: 10rem;
-    background-color: white;
+.flex li:active {
+    color: black;
+    background-color: rgb(228, 16, 94);
 }
 
-.iconify icon {
+.flex li:hover {
+    cursor: pointer;
+}
+
+.icon {
     color: rgb(228, 16, 94);
+    width: 400px;
 }
