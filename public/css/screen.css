@@ -10,6 +10,7 @@ section {
 
 .flex {
     display: flex;
+    justify-content: center;
 }
 
 h1 {
@@ -29,5 +30,16 @@ ul {
     border-radius: 2rem;
     text-align: center;
     background-color: white;
+    color: rgb(228, 16, 94);
+    font-weight: bold;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+.potion img {
+    width: 10rem;
+    background-color: white;
+}
+
+.iconify icon {
     color: rgb(228, 16, 94);
 }
