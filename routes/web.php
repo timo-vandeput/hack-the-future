@@ -16,7 +16,3 @@ use App\Http\Controllers\IngredientController;
 */
 
 Route::get('/', [ IngredientController::class, "index" ]);
-/* Route::get('/', function () {
-    return view('welcome');
-});
-*/
