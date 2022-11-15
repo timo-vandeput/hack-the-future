@@ -37,9 +37,13 @@ function secondIngredient(e) {
 function createPotion() {
     if (ingredient1 == ingredient2) {
         document.querySelector(".potion").innerHTML =
-            "<iconify-icon icon='game-icons:potion-ball' style='color: #e4105e;' width='300' height='300'></iconify-icon>";
+            "<iconify-icon icon='game-icons:potion-ball' style='color: #e4105e;' width='290' height='290'></iconify-icon>";
+        document.querySelector(".error").innerHTML =
+            "Congratulations! You made an excellent potion!";
     } else {
         document.querySelector(".potion").innerHTML =
-            "<iconify-icon icon='game-icons:spiky-explosion' style='color: #e4105e;' width='300' height='300'></iconify-icon>";
+            "<iconify-icon icon='game-icons:spiky-explosion' style='color: #e4105e;' width='290' height='290'></iconify-icon>";
+        document.querySelector(".error").innerHTML =
+            "BOOM! You're potion was not made correctly, try again!";
     }
 }
